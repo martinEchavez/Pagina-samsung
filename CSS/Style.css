@@ -1,0 +1,151 @@
+.header {
+    height: 100vh;
+    display: flex;
+    color: #fff;
+}
+
+.content {
+    z-index: 1;
+    max-width: 80Rem;
+    padding-left: 10rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.header-carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 10;
+}
+
+.content p {
+    font-size: 20px;
+    display: block;
+}
+
+.colorSamsung {
+    color: #2189ff;
+}
+
+.center {
+    text-align: center;
+}
+
+.ubicacion {
+    width: 80vw;
+    height: 300px;
+    border:0;
+}
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    border: 1px solid #fff;
+    padding: 5px;
+    box-shadow: 5px 10px 8px #888888;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+}
+
+.whatsapp-icon {
+    color: #fff;
+}
+
+.circle-icon {
+    color:#fff;
+    background: #009640;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(120, 202, 247, 0.12), 0 4px 8px rgba(21, 190, 228, 0.426);
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 4rem 0 4rem 0;
+    }
+
+    .content {
+        z-index: 1;
+        max-width: 50Rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .content p {
+        font-size: 2rem;
+        display: block;
+        margin: 0;
+    }
+
+    .ubicacion {
+        width: 350px;
+        height: 250px;
+        border:0;
+    }
+
+    .pagos {
+        width: 48vw;
+        height: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding: 0 3rem 0 3rem;
+    }
+
+    .content {
+        z-index: 1;
+        max-width: 50Rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .content p {
+        font-size: 1rem;
+        display: block;
+        margin: 0;
+    }
+
+    .ubicacion {
+        width: 90vw;
+        height: 250px;
+        border:0;
+    }
+
+    .pagos {
+        width: 90vw;
+        height: 100px;
+    }
+}
