@@ -45,7 +45,7 @@ body {
 }
 
 .ubicacion {
-    width: 80vw;
+    width: 65vw;
     height: 300px;
     border:0;
 }
@@ -80,9 +80,20 @@ body {
 }
 
 .micard:hover{
-    transform: scale(1.05);
+    transform: scale(1.15);
     box-shadow: 0 10px 20px rgba(120, 202, 247, 0.12), 0 4px 8px rgba(21, 190, 228, 0.426);
-    cursor: pointer;
+    cursor: zoom-in;
+    border-radius: 10px;
+}
+
+.border {
+    border: solid 1px black;
+    background-color: white;
+    padding: 3px 3px;
+}
+
+.cardImg {
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
