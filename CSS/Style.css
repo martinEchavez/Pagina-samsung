@@ -26,6 +26,11 @@ body {
     opacity: 0.5;
 }
 
+.subtitulo {
+    margin: 8px;
+    text-align: center;
+}
+
 .content h1 {
     font-size: 50px;
     margin-bottom: 8px;
