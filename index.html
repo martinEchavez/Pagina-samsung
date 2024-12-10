@@ -11,9 +11,9 @@
     <meta name="author" content="Soporte Técnico Samsung">
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="URL_DE_TU_SITIO">
+    <meta property="og:url" content="https://samsungserviciotecnico.com/">
     <meta property="og:title" content="Soporte Técnico Samsung - Servicio Autorizado">
     <meta property="og:description"
         content="Servicio técnico autorizado Samsung en Funza y Bogotá. Reparación y mantenimiento de electrodomésticos Samsung.">
@@ -21,34 +21,31 @@
 
     <title>Soporte Técnico Samsung | Servicio Autorizado en Funza y Bogotá</title>
 
-    <!-- Preload de recursos críticos -->
+    <!-- Preload -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
     <link rel="preload" href="CSS/Style.css" as="style">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style">
 
-    <!-- Hojas de estilo -->
+    <!-- Styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="CSS/Style.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
-    <!-- Canonical URL -->
-    <link rel="canonical" href="URL_DE_TU_SITIO">
+    <link rel="canonical" href="https://samsungserviciotecnico.com/">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" role="navigation">
         <div class="container">
             <a class="navbar-brand" href="#" aria-label="Inicio">
                 <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/logo.webp" alt="Logo Samsung"
                     height="40" width="120">
             </a>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -71,7 +68,7 @@
         </div>
     </nav>
 
-    <!-- Header con Carousel -->
+    <!-- Header -->
     <header class="header">
         <div id="headerCarousel" class="carousel slide header-carousel" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -82,7 +79,6 @@
                 <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
-
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/portada001.webp"
@@ -100,7 +96,6 @@
                     <div class="carousel-overlay"></div>
                 </div>
             </div>
-
             <button class="carousel-control-prev" type="button" data-bs-target="#headerCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -124,105 +119,136 @@
     </header>
 
     <main>
-        <!-- Sección de Servicios -->
-        <section class="container mt-5" id="servicio">
-            <h2 class="text-center mb-4">Soporte técnico de neveras, televisores y lavadoras</h2>
+        <!-- Servicios -->
+        <section id="servicio" class="section container">
+            <h2 class="text-center mb-5">Soporte técnico de neveras, televisores y lavadoras</h2>
 
             <div class="row g-4">
-                <!-- Columna Nevecón -->
+                <!-- Neveras -->
                 <div class="col-md-6">
-                    <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/neveconsamsung.webp"
-                        class="micard cardImg ImgBig w-100" alt="Nevecón Samsung" loading="lazy">
-                </div>
-
-                <!-- Columna Servicios -->
-                <div class="col-md-6 border">
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/televisorsamsung.webp"
-                                class="micard cardImg w-100" alt="Televisor Samsung" loading="lazy">
+                    <div class="appliance-card h-100">
+                        <div class="appliance-image">
+                            <img src="Image/nevera-de-gran-capacidad-de-samsung.webp" alt="Nevera Samsung"
+                                class="product-img">
                         </div>
-                        <div class="col-md-6">
-                            <h4>INSTALACIÓN</h4>
-                            <p>Ofrecemos servicios en instalación de todos los electrodomésticos Samsung.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>MANTENIMIENTO</h4>
-                            <p>Servicio de mantenimiento con calidad y precios justos.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/lavadorasamsung.webp"
-                                class="micard cardImg w-100" alt="Lavadora Samsung" loading="lazy">
+                        <div class="appliance-content">
+                            <h3 class="appliance-title">Neveras Samsung</h3>
+                            <p>Expertos en reparación y mantenimiento de neveras Samsung. Solucionamos problemas de:</p>
+                            <ul class="appliance-features">
+                                <li>Refrigeración y congelación</li>
+                                <li>Panel digital y display</li>
+                                <li>Sistema de filtración de agua</li>
+                                <li>Fabricador de hielo</li>
+                                <li>Dispensador de agua</li>
+                            </ul>
+                            <a href="#contacto" class="btn btn-samsung mt-auto">Solicitar servicio</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Columna Servicios Adicionales -->
-                <div class="col-md-6 border">
-                    <div class="row g-3">
-                        <div class="col-md-6">
-                            <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/neverasamsung.webp"
-                                class="micard cardImg w-100" alt="Nevera Samsung" loading="lazy">
+                <!-- TV -->
+                <div class="col-md-6">
+                    <div class="appliance-card h-100">
+                        <div class="appliance-image">
+                            <img src="Image/samsung–tv-curvo-smart-tV-55.webp" alt="Televisor Samsung Smart TV"
+                                class="product-img">
                         </div>
-                        <div class="col-md-6">
-                            <h4>REPARACIÓN</h4>
-                            <p>Servicio de reparación profesional para todos los electrodomésticos Samsung.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <h4>GARANTÍA</h4>
-                            <p>Respaldamos nuestro trabajo con garantía y más de 10 años de experiencia.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/hornosamsung.webp"
-                                class="micard cardImg w-100" alt="Horno Samsung" loading="lazy">
+                        <div class="appliance-content">
+                            <h3 class="appliance-title">Televisores Smart TV</h3>
+                            <p>Servicio especializado en televisores Samsung Smart TV. Atendemos:</p>
+                            <ul class="appliance-features">
+                                <li>Problemas de imagen y color</li>
+                                <li>Fallas de sonido</li>
+                                <li>Conectividad WiFi</li>
+                                <li>Actualización de software</li>
+                                <li>Calibración profesional</li>
+                            </ul>
+                            <a href="#contacto" class="btn btn-samsung mt-auto">Solicitar servicio</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Columna Secadora -->
+                <!-- Lavadoras -->
                 <div class="col-md-6">
-                    <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/secadorasamsung.webp"
-                        class="micard cardImg ImgBig w-100" alt="Secadora Samsung" loading="lazy">
+                    <div class="appliance-card h-100">
+                        <div class="appliance-image">
+                            <img src="Image/lavadora-samsung-semi-automatica.webp" alt="Lavadora Samsung"
+                                class="product-img">
+                        </div>
+                        <div class="appliance-content">
+                            <h3 class="appliance-title">Lavadoras</h3>
+                            <p>Servicio técnico profesional para lavadoras Samsung. Atendemos:</p>
+                            <ul class="appliance-features">
+                                <li>Reparación de motor y transmisión</li>
+                                <li>Problemas de programas de lavado</li>
+                                <li>Sistema de desagüe y bombas</li>
+                                <li>Problemas de centrifugado</li>
+                                <li>Mantenimiento preventivo</li>
+                            </ul>
+                            <a href="#contacto" class="btn btn-samsung mt-auto">Solicitar servicio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Secadoras -->
+                <div class="col-md-6">
+                    <div class="appliance-card h-100">
+                        <div class="appliance-image">
+                            <img src="Image/samsung-lavasecadora-22kg-con-pedestal.webp" alt="Secadora Samsung"
+                                class="product-img">
+                        </div>
+                        <div class="appliance-content">
+                            <h3 class="appliance-title">Secadoras</h3>
+                            <p>Especialistas en reparación de secadoras Samsung. Servicios:</p>
+                            <ul class="appliance-features">
+                                <li>Reparación sistema de secado</li>
+                                <li>Calibración de sensores</li>
+                                <li>Mantenimiento del sistema de ventilación</li>
+                                <li>Problemas de temperatura</li>
+                                <li>Diagnóstico electrónico</li>
+                            </ul>
+                            <a href="#contacto" class="btn btn-samsung mt-auto">Solicitar servicio</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Número de Contacto -->
-        <div class="bg-dark py-3 mt-5">
+        <!-- Contacto Banner -->
+        <div class="bg-dark py-4 my-5">
             <h4 class="text-center colorWhite mb-0">Escribir ahora 3132486864</h4>
         </div>
 
-        <!-- Sección Ubicación -->
-        <section class="container mt-5" id="ubicacion">
-            <h4 class="colorSamsung">Ubicación</h4>
-            <div class="row">
+        <!-- Ubicación -->
+        <section class="container section" id="ubicacion">
+            <h4 class="colorSamsung mb-4">Ubicación</h4>
+            <div class="row g-4">
                 <div class="col-md-6">
-                    <h5>Sede principal -- Funza</h5>
+                    <h5 class="mb-3">Sede principal -- Funza</h5>
                     <p>Funza, San Cristóbal, Santa Fe, Tunjuelito, Bosa, Kennedy, Fontibón, Engativá, Suba, Barrios
                         Unidos, Teusaquillo, Los Mártires, Antonio Nariño, Puente Aranda, La Candelaria, Rafael Uribe
                         Uribe, Ciudad Bolivar.</p>
-                    <h5>Municipios</h5>
+                    <h5 class="mt-4 mb-3">Municipios</h5>
                     <p>Soacha, Mosquera, Funza, Madrid, Chía, Cajicá, Cota, La Calera, Tenjo, Tabio, Sibaté, Zipaquirá y
                         Facatativá.</p>
                 </div>
                 <div class="col-md-6">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63623.87559529567!2d-74.23677481918653!3d4.716241940252809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9d58cf6e291b%3A0x8946ec678fcb3e52!2sFunza%2C%20Cundinamarca!5e0!3m2!1ses!2sco!4v1702088514841!5m2!1ses!2sco"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" class="rounded" title="Ubicación en Google Maps">
-                    </iframe>
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded"
+                        title="Ubicación en Google Maps"></iframe>
                 </div>
             </div>
         </section>
 
-        <!-- Sección Domicilios -->
-        <section class="container mt-5 border" id="domicilios">
-            <div class="row">
+        <!-- Domicilios -->
+        <section class="container section section-card" id="domicilios">
+            <div class="row g-4">
                 <div class="col-md-6">
                     <h4>Servicio a domicilio</h4>
                     <hr>
-                    <p>Si su Electrodoméstico Samsung ha dejado de funcionar, disponemos del mejor servicio de
-                        asistencia técnica para reparación a domicilio.</p>
+                    <p class="my-4">Si su Electrodoméstico Samsung ha dejado de funcionar, disponemos del mejor servicio
+                        de asistencia técnica para reparación a domicilio.</p>
                     <a href="https://wa.me/573132486864/?text=Hola%20soporte%20%20Samsung"
                         class="btn btn-samsung btn-lg" target="_blank" rel="noopener noreferrer">
                         Escribir Ahora
@@ -237,18 +263,18 @@
             </div>
         </section>
 
-        <!-- Sección Medios de Pago -->
-        <section class="container mt-5" id="pagos">
-            <h5 class="text-center colorSamsung">Nuestros medios de pago</h5>
-            <div class="row text-center">
+        <!-- Medios de Pago -->
+        <section class="container section" id="pagos">
+            <h5 class="text-center colorSamsung mb-4">Nuestros medios de pago</h5>
+            <div class="row text-center g-4">
                 <div class="col-md-6">
-                    <h5 class="colorSamsung">Efectivo</h5>
+                    <h5 class="colorSamsung mb-3">Efectivo</h5>
                     <p>Paga directamente a nuestro técnico autorizado</p>
                     <img src="https://resourceslandingpages.s3.amazonaws.com/paginalg/cashicon.webp"
                         alt="Pago en efectivo" width="200" height="200" loading="lazy">
                 </div>
                 <div class="col-md-6">
-                    <h5 class="colorSamsung">PayU</h5>
+                    <h5 class="colorSamsung mb-3">PayU</h5>
                     <p>Solicita tu pago vía telefónica, WhatsApp o chat</p>
                     <img src="https://resourceslandingpages.s3.amazonaws.com/paginalg/payuco.webp" alt="Pago PayU"
                         class="pagos" width="350" height="90" loading="lazy">
@@ -261,15 +287,15 @@
     <footer class="container-fluid mt-5 bg-light">
         <div class="row py-4">
             <div class="col-lg-4 text-center">
-                <h5 class="text-uppercase colorSamsung">Horario de trabajo</h5>
-                <p>Lunes - Viernes: 08:00 - 20:00</p>
-                <p>Sábado: 08:00 - 15:00</p>
-                <p>Domingo: Cerrado</p>
+                <h5 class="text-uppercase colorSamsung mb-3">Horario de trabajo</h5>
+                <p class="mb-2">Lunes - Viernes: 08:00 - 20:00</p>
+                <p class="mb-2">Sábado: 08:00 - 15:00</p>
+                <p class="mb-0">Domingo: Cerrado</p>
             </div>
             <div class="col-lg-4 text-center" id="contacto">
-                <h5 class="text-uppercase colorSamsung">Contacto</h5>
-                <p>FUNZA - BOGOTÁ - COLOMBIA</p>
-                <h5>3132486864</h5>
+                <h5 class="text-uppercase colorSamsung mb-3">Contacto</h5>
+                <p class="mb-2">FUNZA - BOGOTÁ - COLOMBIA</p>
+                <h5 class="mb-3">3132486864</h5>
                 <img src="https://resourceslandingpages.s3.amazonaws.com/paginasamsung/logo.webp" alt="Logo Samsung"
                     width="120" height="40" loading="lazy">
             </div>
@@ -296,7 +322,7 @@
         </div>
     </footer>
 
-    <!-- Botón flotante de WhatsApp -->
+    <!-- WhatsApp Button -->
     <a href="https://wa.me/573132486864/?text=Hola%20soporte%20%20Samsung" class="whatsapp" target="_blank"
         rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
         <i class="fab fa-whatsapp" aria-hidden="true"></i>
@@ -340,7 +366,7 @@
             }
         ],
         "telephone": "+573132486864",
-        "url": "URL_DE_TU_SITIO"
+        "url": "https://samsungserviciotecnico.com/"
     }
     </script>
 </body>
