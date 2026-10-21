@@ -271,6 +271,45 @@ body {
     box-shadow: 0 8px 16px rgba(20, 40, 160, 0.15);
 }
 
+/* Mapa sin cargar: mismo tamaño que el iframe, lo reemplaza al tocarlo */
+.map-facade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    height: 450px;
+    background-color: var(--samsung-light-gray);
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    color: var(--samsung-black);
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.map-facade:hover {
+    border-color: var(--samsung-blue);
+    box-shadow: 0 8px 16px rgba(20, 40, 160, 0.15);
+    color: var(--samsung-black);
+}
+
+.map-facade-pin {
+    font-size: 2.5rem;
+    color: var(--samsung-blue);
+}
+
+/* Íconos SVG (sprite al inicio del body): toman el tamaño y color del texto */
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    vertical-align: -0.125em;
+    flex-shrink: 0;
+}
+
 /* Media Queries */
 @media (max-width: 1200px) {
     :root {
@@ -330,7 +369,8 @@ body {
         font-size: 1.25rem;
     }
 
-    #ubicacion iframe {
+    #ubicacion iframe,
+    .map-facade {
         height: 350px;
     }
 
@@ -356,7 +396,8 @@ body {
         height: 200px;
     }
 
-    #ubicacion iframe {
+    #ubicacion iframe,
+    .map-facade {
         height: 300px;
     }
 }
