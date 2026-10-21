@@ -360,3 +360,8 @@ body {
         height: 300px;
     }
 }
+/* Aviso de marca: letra pequeña al pie */
+.aviso-legal {
+    font-size: 10px;
+    color: #9a9a9a;
+}
