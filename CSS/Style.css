@@ -20,7 +20,21 @@ body {
     padding: var(--section-spacing) 0;
 }
 
-/* Header y Carousel */
+/* Logotipo de texto (navbar) */
+.brand-text {
+    color: var(--samsung-blue);
+    font-weight: 700;
+}
+
+.brand-text span {
+    font-weight: 400;
+}
+
+.brand-text:hover {
+    color: var(--samsung-blue);
+}
+
+/* Header */
 .header {
     position: relative;
     height: 80vh;
@@ -36,11 +50,12 @@ body {
     height: 100%;
 }
 
-.carousel-item {
+.header-slide {
+    position: relative;
     height: 80vh;
 }
 
-.carousel-item img {
+.header-slide img {
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -176,39 +191,6 @@ body {
     box-shadow: 0 4px 12px rgba(33, 137, 255, 0.3);
 }
 
-/* Carousel Controls */
-.carousel-control-prev,
-.carousel-control-next {
-    width: 5%;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.header:hover .carousel-control-prev,
-.header:hover .carousel-control-next {
-    opacity: 0.8;
-}
-
-.carousel-indicators {
-    bottom: 2rem;
-}
-
-.carousel-indicators button {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin: 0 6px;
-    background-color: var(--samsung-white);
-    opacity: 0.5;
-    transition: all 0.3s ease;
-}
-
-.carousel-indicators button.active {
-    opacity: 1;
-    background-color: var(--samsung-blue);
-    transform: scale(1.2);
-}
-
 /* Utilidades */
 .colorSamsung {
     color: var(--samsung-blue);
@@ -256,6 +238,12 @@ body {
 .whatsapp:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Ícono grande en la sección Domicilio */
+.domicilio-icon {
+    font-size: 4rem;
+    line-height: 1;
 }
 
 /* Ubicación */
@@ -316,7 +304,7 @@ body {
         --section-spacing: 3rem;
     }
 
-    .header, .carousel-item {
+    .header, .header-slide {
         height: 60vh;
     }
 
@@ -330,7 +318,7 @@ body {
 }
 
 @media (max-width: 992px) {
-    .header, .carousel-item {
+    .header, .header-slide {
         height: 50vh;
     }
 
@@ -349,7 +337,7 @@ body {
         --card-spacing: 1rem;
     }
 
-    .header, .carousel-item {
+    .header, .header-slide {
         height: 45vh;
     }
 
@@ -384,7 +372,7 @@ body {
 }
 
 @media (max-width: 576px) {
-    .header, .carousel-item {
+    .header, .header-slide {
         height: 40vh;
     }
 
